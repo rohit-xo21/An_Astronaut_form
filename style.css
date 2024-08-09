@@ -1,0 +1,95 @@
+body{
+    font: serif;
+}
+body {
+    background-color: #f0f0f0; /* Fallback color */
+    background-image: url('https://kq-storage.s3.ap-south-1.amazonaws.com/Github/astronaut/sky-moon-bg%5B1%5D.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #ffffff; 
+}
+
+#heading{
+    text-align: center; 
+}
+
+#form1{
+    background-color: #ffffff; 
+    padding: 50px; 
+    border: 1px solid #ffffff; 
+    border-radius: 4px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 350px;
+    align-content: end;
+    position: absolute;
+    right: 50px;
+} 
+
+
+#takeus{
+    background-color: #ff9500;
+    color: rgb(255, 255, 255); 
+    padding: 8px 16px; 
+    border-radius: 10px; 
+    cursor: pointer;
+    font-size: 16px;
+}
+
+#astronaut1 {
+    position: relative;
+    width: 100vw;
+    height: 100vh; 
+    background-color: #f0f0f000; 
+}
+
+
+#astronaut1 {
+    position: absolute; 
+    bottom: 250px; 
+    left: 200px; 
+    width: 350px; 
+    height: auto; 
+    
+}
+
+#astronaut2 {
+    position: relative;
+    width: 100vw;
+    height: 100vh; 
+    background-color: #f0f0f000; 
+}
+
+
+#astronaut2 {
+    position: absolute;
+    bottom: 250px; 
+    left: 400px; 
+    width: 350px; 
+    height: auto;
+    
+}
+
+
+img {
+    width: 200px;
+    height: auto;
+    animation: smoothBounce 3s infinite; 
+}
+
+@keyframes smoothBounce {
+    0%, 100% {
+        transform: translateY(0);
+    }
+    50% {
+        transform: translateY(-10px); 
+    }
+}
