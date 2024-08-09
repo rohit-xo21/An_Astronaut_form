@@ -18,6 +18,12 @@ body {
     background-color: #ffffff; 
 }
 
+.petti{
+width: 250px;
+height: 30px;
+border-radius: 4px;
+}
+
 #heading{
     text-align: center; 
 }
@@ -92,4 +98,21 @@ img {
     50% {
         transform: translateY(-10px); 
     }
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins';
+}
+
+body.petti{
+    width: 500px;
+    height: 30px;
+}
+
+div {
+    display: block;
+    unicode-bidi: isolate;
 }
